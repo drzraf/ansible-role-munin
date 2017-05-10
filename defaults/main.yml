@@ -12,6 +12,12 @@ munin_rundir: /var/run/munin
 
 munin_includedir: /etc/munin/conf.d
 
+# action plugin
+munin_activepluginsdir: /etc/munin/plugins
+munin_pluginsconfdir: /etc/munin/plugin-conf.d
+munin_pluginsdir: /usr/share/munin/plugins
+# /action plugin
+
 munin_html_strategy: cron
 munin_graph_strategy: cron
 munin_cron_job: present

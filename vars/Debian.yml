@@ -4,3 +4,8 @@ munin_conf_d_directory: /etc/munin/munin-conf.d
 munin_htmldir: /var/cache/munin/www
 
 munin_includedir: /etc/munin/munin-conf.d
+
+# for the action plugin
+munin_activepluginsdir: /etc/munin/plugins
+munin_pluginsconfdir: /etc/munin/plugin-conf.d
+munin_pluginsdir: /usr/share/munin/plugins
